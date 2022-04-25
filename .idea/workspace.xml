@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6f1abc6-49f7-474b-b02c-24385b7383bd" name="Changes" comment="init 2">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/eu/lampenlampen/brokencrypto/Hash.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/eu/lampenlampen/brokencrypto/hash/HashAlgorithm.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/eu/lampenlampen/brokencrypto/hash/SingleByteSum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/SingleByteSumTest.kt" afterDir="false" />
+    <list default="true" id="a6f1abc6-49f7-474b-b02c-24385b7383bd" name="Changes" comment="Hash SingleByteSum">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/eu/lampenlampen/brokencrypto/hash/MD4.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/eu/lampenlampen/brokencrypto/Hash.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/eu/lampenlampen/brokencrypto/Hash.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +67,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotest/kotest-framework-api-jvm/5.2.3/2fc28ec1bc161605fe1498c4aef53747c88813d7/kotest-framework-api-jvm-5.2.3-sources.jar!/commonMain/io/kotest/core/config/AbstractProjectConfig.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotest/kotest-framework-api-jvm/5.2.3/2fc28ec1bc161605fe1498c4aef53747c88813d7/kotest-framework-api-jvm-5.2.3-sources.jar!/commonMain/io/kotest/core/spec/IsolationMode.kt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -92,7 +94,8 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -189,6 +192,8 @@
       <option name="presentableId" value="Default" />
       <updated>1650570514727</updated>
       <workItem from="1650570516525" duration="7103000" />
+      <workItem from="1650661199683" duration="630000" />
+      <workItem from="1650661880832" duration="1793000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1650571218106</created>
@@ -204,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650574376506</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Hash SingleByteSum">
+      <created>1650661485343</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650661485343</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +236,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="init 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="init 2" />
+    <MESSAGE value="Hash SingleByteSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hash SingleByteSum" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
